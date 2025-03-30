@@ -2,38 +2,31 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Made with Kivy](https://img.shields.io/badge/made%20with-Kivy-ff69b4)](https://kivy.org/)
-[![Selenium](https://img.shields.io/badge/Selenium-Used-brightgreen?logo=selenium)]
+[![Built with Kivy](https://img.shields.io/badge/built%20with-Kivy-ff69b4)](https://kivy.org/)
+[![Selenium](https://img.shields.io/badge/Selenium-Enabled-brightgreen?logo=selenium)]
 [![WebScraping](https://img.shields.io/badge/Web-Scraping-orange)](https://github.com/topics/web-scraping)
 
-## ✨ Beschreibung
+## ✨ Overview
 
-Ein moderner Web-Scraper mit GUI (gebaut mit [Kivy](https://kivy.org/)), der Webseiten analysiert, verlinkte Ressourcen herunterlädt und alles sauber als ZIP-Datei speichert. Bei Problemen mit normalen Anfragen wird automatisch auf **Selenium** zurückgegriffen.
+**WebScraperApp** is a modern and user-friendly GUI application that allows you to scrape any website, collect its resources (images, scripts, stylesheets), and save them locally in a clean ZIP archive. If access is blocked by services like Cloudflare, the app automatically switches to **Selenium** to bypass restrictions.
 
-## 🛠️ Features
+## 💡 Key Features
 
-- 🌐 **Website-Scraping mit Cloudscraper & Selenium**
-- 🎛️ **Intuitive Benutzeroberfläche** (Kivy)
-- 📁 **Automatische Speicherung von HTML & Ressourcen**
-- 🗜️ **ZIP-Erstellung aller gesammelten Dateien**
-- 📊 **Dynamische Fortschrittsanzeige**
-- 📑 **Zusätzliche Metadaten-Speicherung zur Website**
-- 🔄 **Fallback zu Selenium bei geschützten Seiten (z. B. Cloudflare)**
+- 🌐 **Scrape websites using Cloudscraper or Selenium**
+- 🖥️ **Minimalistic and functional GUI** built with [Kivy](https://kivy.org/)
+- 📥 **Download and store all HTML, JS, CSS, and image assets**
+- 🗜️ **Creates a ZIP archive of the collected data**
+- 📊 **Real-time progress bar for download tracking**
+- 🔄 **Automatic fallback to Selenium if Cloudscraper fails**
+- 📝 **Generates a summary file with page info and complexity level**
 
-## 🖥️ Screenshot
+## 📸 Screenshot
 
-> _(Optional: Du kannst hier ein Screenshot deines Tools einfügen, z. B. aus der GUI)_
+> _(Optional: Add a screenshot of the app's interface here)_
 
-## 🧰 Abhängigkeiten
+## 🧩 Requirements
 
-- `kivy`
-- `requests`
-- `beautifulsoup4`
-- `cloudscraper`
-- `selenium`
-- `webdriver-manager`
-- `tqdm`
+Install all dependencies with pip:
 
-Installation (z. B. mit `pip`):
 ```bash
 pip install kivy requests beautifulsoup4 cloudscraper selenium webdriver-manager tqdm
