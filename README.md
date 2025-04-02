@@ -20,9 +20,6 @@
 - 🔄 **Automatic fallback to Selenium if Cloudscraper fails**
 - 📝 **Generates a summary file with page info and complexity level**
 
-## 📸 Screenshot
-
-> _(Optional: Add a screenshot of the app's interface here)_
 
 ## 🧩 Requirements
 
